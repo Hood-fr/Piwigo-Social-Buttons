@@ -1,9 +1,9 @@
 <?php 
 /*
 Plugin Name: Social Buttons
-Version: auto
+Version: 1.3.1
 Description: Sharing functions for Facebook, Twitter, Google+ and Tumblr
-Plugin URI: auto
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=673
 Author: Mistic
 Author URI: http://www.strangeplanet.fr
 */
