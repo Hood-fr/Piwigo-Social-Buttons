@@ -1,6 +1,6 @@
 {strip}
 {if $SOCIALBUTT.light}
-  <a title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?url={$SOCIALBUTT.share_url|urlencode}&title={$PAGE_TITLE|cat:' | '|cat:$GALLERY_TITLE}"
+  <a title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={$SOCIALBUTT.share_url|urlencode}&title={$PAGE_TITLE|cat:' - '|cat:$GALLERY_TITLE}&source={$GALLERY_TITLE}&summary={$CONTENT_DESCRIPTION}{$COMMENT_IMG}"
     onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=390,width=480');return false;" target="_blank" rel="nofollow">
     <img src="{$ROOT_URL}{$SOCIALBUTT_PATH}template/images/linkedin.png" alt="LinkedIn"></a>
 {else}
