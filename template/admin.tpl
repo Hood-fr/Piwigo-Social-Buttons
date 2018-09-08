@@ -123,6 +123,13 @@ jQuery(".showInfo").tipTip({
         <img src="{$SOCIALBUTT_PATH}template/images/twitter_large.png"/>
       </label></td>
     </tr>
+    <tr class="button">
+      <td><label>
+        <img src="{$SOCIALBUTT_PATH}template/images/twitter_mini.png"/>
+        <input type="radio" name="twitter[size]" value="mini" {if $twitter.size=='mini'}checked="checked"{/if}/>
+      </label></td>
+      <td></td>
+    </tr>
     <tr class="property not-light">
       <td>
         {'Annotation'|translate}
