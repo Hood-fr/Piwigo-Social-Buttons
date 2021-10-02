@@ -10,5 +10,5 @@
 {else}
   {combine_script id='tumblr_share' load='footer' path='https://platform.tumblr.com/v1/share.js'}
 {/if}
-><img src="{$ROOT_URL}{$SOCIALBUTT_PATH}template/images/tumblr_share.png" alt="Tumblr"></a>
+><img src="{$ROOT_URL}{$SOCIALBUTT_PATH}template/images/tumblr_share.png" alt="Tumblr" height="20" width="20"></a>
 {/strip}

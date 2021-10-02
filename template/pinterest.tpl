@@ -6,5 +6,5 @@
   class="pin-it-button" count-layout="{$SOCIALBUTT.PINTEREST.layout}" rel="nofollow"
   {combine_script id='pinterest_pinit' load='footer' path='https://assets.pinterest.com/js/pinit.js'}
 {/if}
-><img border="0" src="{$ROOT_URL}{$SOCIALBUTT_PATH}template/images/pin_share.png" title="Pin It"/></a>
+><img border="0" src="{$ROOT_URL}{$SOCIALBUTT_PATH}template/images/pin_share.png" title="Pin It" height="20" width="20"/></a>
 {/strip}
