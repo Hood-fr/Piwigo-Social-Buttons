@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: Social Buttons
-Version: 1.3.1
+Version: 1.3.3
 Description: Sharing functions for Facebook, Twitter, Google+ and Tumblr
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=673
 Author: Mistic
