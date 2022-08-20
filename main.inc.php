@@ -6,6 +6,7 @@ Description: Sharing functions for Facebook, Twitter, Google+ and Tumblr
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=673
 Author: Mistic
 Author URI: http://www.strangeplanet.fr
+Has Settings: true
 */
 
 defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
