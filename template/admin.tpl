@@ -78,7 +78,7 @@ jQuery(".showInfo").tipTip({
       {'Shared picture size'|translate}
     </td>
     <td>
-      {html_options name="img_size" values=$img_sizes output=$img_sizes|translate selected=$img_size}
+      {html_options name="img_size" values=$img_sizes output=$img_sizes_labels selected=$img_size}
     </td>
   </tr>
   <tr class="property">
@@ -385,17 +385,4 @@ jQuery(".showInfo").tipTip({
       <td>
         <label><input type="radio" name="linkedin[counter]" value="none" {if $linkedin.counter=='none'}checked="checked"{/if}/> {'None'|translate}</label><br>
         <label><input type="radio" name="linkedin[counter]" value="right" {if $linkedin.counter=='right'}checked="checked"{/if}/> {'Right bubble'|translate}</label><br>
-        <label><input type="radio" name="linkedin[counter]" value="top" {if $linkedin.counter=='top'}checked="checked"{/if}/> {'Top bubble'|translate}</label>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div> {* <!-- linkedin --> *}
-
-<br>
-
-<div class="submit">
-  <input type="submit" value="{'Save Settings'|translate}" name="submit"/>
-</div>
-
-</form>
+        <label><input type="radio" name="linkedin[counter]" value="top" {if $l
