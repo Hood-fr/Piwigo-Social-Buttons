@@ -1,4 +1,4 @@
 File automatically created from SVN or Git repository.
 
 URL: https://github.com/Piwigo/Piwigo-Social-Buttons 
-Revision: 831f1053766dc8d465c3bc173b8e49039f4ead80 (Thu Dec 21 11:36:41 2023 +0100)
+Revision: 3572294f1ce28dd6fff2b668e5f5e0791672b690 (Wed Apr 24 13:35:37 2024 +0200)
